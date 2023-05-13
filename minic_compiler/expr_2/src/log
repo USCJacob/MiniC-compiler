@@ -1,0 +1,267 @@
+(TYPE,int)
+(ID,a)
+(ASSIGNOP,=)
+(INT,1)
+(SEMI,,)
+(ID,b)
+(ASSIGNOP,=)
+(INT,2)
+(SEMI,,)
+(ID,c)
+(SEMI,;)
+(TYPE,char)
+(ID,d)
+(SEMI,;)
+(TYPE,int)
+(ID,a)
+(INT,10)
+(SEMI,;)
+(TYPE,float)
+(ID,m)
+(SEMI,,)
+(ID,n)
+(SEMI,;)
+(TYPE,int)
+(ID,fibo)
+(TYPE,int)
+(ID,a)
+(TYPE,int)
+(ID,a)
+(SEMI,;)
+(ID,a)
+(INT,1)
+(ID,a)
+(INT,2)
+(INT,1)
+(SEMI,;)
+(ID,fibo)
+(ID,a)
+(PLUS,-)
+(INT,1)
+(PLUS,+)
+(ID,fibo)
+(ID,a)
+(PLUS,-)
+(INT,2)
+(SEMI,;)
+(TYPE,int)
+(ID,main)
+(TYPE,int)
+(ID,m)
+(ASSIGNOP,=)
+(INT,0)
+(SEMI,,)
+(ID,n)
+(SEMI,,)
+(ID,i)
+(SEMI,;)
+(TYPE,char)
+(ID,d)
+(SEMI,;)
+(TYPE,int)
+(ID,a)
+(INT,10)
+(SEMI,;)
+(ID,m)
+(ASSIGNOP,=)
+(ID,read)
+(SEMI,;)
+(ID,i)
+(ASSIGNOP,=)
+(INT,1)
+(SEMI,;)
+(ID,i)
+(INT,1)
+(SEMI,;)
+(ID,d)
+(ASSIGNOP,=)
+(CHAR,1)
+(SEMI,;)
+(ID,i)
+(ID,m)
+(ID,n)
+(ASSIGNOP,=)
+(ID,fibo)
+(ID,i)
+(SEMI,;)
+(ID,write)
+(ID,n)
+(SEMI,;)
+(ID,i)
+(ASSIGNOP,=)
+(ID,i)
+(PLUS,+)
+(INT,1)
+(SEMI,;)
+(ID,i)
+(ASSIGNOP,=)
+(INT,0)
+(SEMI,;)
+(ID,i)
+(INT,8)
+(SEMI,;)
+(ID,i)
+(ID,i)
+(SEMI,;)
+(ID,i)
+(SEMI,;)
+(INT,1)
+(SEMI,;)
+ERROR! line:3,redeclaration, a
+ERROR! line:6,redeclaration, a
+		Symbol table		
+Index	Name    	Level     	Type      	Flag      	Param_num 
+0    	a       	0         	int       	V         	
+1    	b       	0         	int       	V         	
+2    	c       	0         	int       	V         	
+3    	d       	0         	char      	V         	
+4    	a       	0         	int       	A         	
+5    	m       	0         	float     	V         	
+6    	n       	0         	float     	V         	
+7    	fibo    	0         	int       	F         	1    	
+8    	a       	1         	int       	P         	
+9    	a       	1         	int       	T         	
+---------------
+		Symbol table		
+Index	Name    	Level     	Type      	Flag      	Param_num 
+0    	a       	0         	int       	V         	
+1    	b       	0         	int       	V         	
+2    	c       	0         	int       	V         	
+3    	d       	0         	char      	V         	
+4    	a       	0         	int       	A         	
+5    	m       	0         	float     	V         	
+6    	n       	0         	float     	V         	
+7    	fibo    	0         	int       	F         	1    	
+8    	a       	1         	int       	P         	
+9    	a       	1         	int       	T         	
+---------------
+		Symbol table		
+Index	Name    	Level     	Type      	Flag      	Param_num 
+0    	a       	0         	int       	V         	
+1    	b       	0         	int       	V         	
+2    	c       	0         	int       	V         	
+3    	d       	0         	char      	V         	
+4    	a       	0         	int       	A         	
+5    	m       	0         	float     	V         	
+6    	n       	0         	float     	V         	
+7    	fibo    	0         	int       	F         	1    	
+8    	a       	1         	int       	P         	
+9    	a       	1         	int       	T         	
+---------------
+		Symbol table		
+Index	Name    	Level     	Type      	Flag      	Param_num 
+0    	a       	0         	int       	V         	
+1    	b       	0         	int       	V         	
+2    	c       	0         	int       	V         	
+3    	d       	0         	char      	V         	
+4    	a       	0         	int       	A         	
+5    	m       	0         	float     	V         	
+6    	n       	0         	float     	V         	
+7    	fibo    	0         	int       	F         	1    	
+8    	a       	1         	int       	P         	
+---------------
+ERROR！line: 18 function read undeclared 
+ERROR！line: 26 function write undeclared 
+		Symbol table		
+Index	Name    	Level     	Type      	Flag      	Param_num 
+0    	a       	0         	int       	V         	
+1    	b       	0         	int       	V         	
+2    	c       	0         	int       	V         	
+3    	d       	0         	char      	V         	
+4    	a       	0         	int       	A         	
+5    	m       	0         	float     	V         	
+6    	n       	0         	float     	V         	
+7    	fibo    	0         	int       	F         	1    	
+8    	a       	1         	int       	P         	
+9    	main    	0         	int       	F         	0    	
+10   	m       	1         	int       	T         	
+11   	n       	1         	int       	T         	
+12   	i       	1         	int       	T         	
+13   	d       	1         	char      	T         	
+14   	a       	1         	int       	A         	
+---------------
+		Symbol table		
+Index	Name    	Level     	Type      	Flag      	Param_num 
+0    	a       	0         	int       	V         	
+1    	b       	0         	int       	V         	
+2    	c       	0         	int       	V         	
+3    	d       	0         	char      	V         	
+4    	a       	0         	int       	A         	
+5    	m       	0         	float     	V         	
+6    	n       	0         	float     	V         	
+7    	fibo    	0         	int       	F         	1    	
+8    	a       	1         	int       	P         	
+9    	main    	0         	int       	F         	0    	
+10   	m       	1         	int       	T         	
+11   	n       	1         	int       	T         	
+12   	i       	1         	int       	T         	
+13   	d       	1         	char      	T         	
+14   	a       	1         	int       	A         	
+---------------
+		Symbol table		
+Index	Name    	Level     	Type      	Flag      	Param_num 
+0    	a       	0         	int       	V         	
+1    	b       	0         	int       	V         	
+2    	c       	0         	int       	V         	
+3    	d       	0         	char      	V         	
+4    	a       	0         	int       	A         	
+5    	m       	0         	float     	V         	
+6    	n       	0         	float     	V         	
+7    	fibo    	0         	int       	F         	1    	
+8    	a       	1         	int       	P         	
+9    	main    	0         	int       	F         	0    	
+10   	m       	1         	int       	T         	
+11   	n       	1         	int       	T         	
+12   	i       	1         	int       	T         	
+13   	d       	1         	char      	T         	
+14   	a       	1         	int       	A         	
+---------------
+		Symbol table		
+Index	Name    	Level     	Type      	Flag      	Param_num 
+0    	a       	0         	int       	V         	
+1    	b       	0         	int       	V         	
+2    	c       	0         	int       	V         	
+3    	d       	0         	char      	V         	
+4    	a       	0         	int       	A         	
+5    	m       	0         	float     	V         	
+6    	n       	0         	float     	V         	
+7    	fibo    	0         	int       	F         	1    	
+8    	a       	1         	int       	P         	
+9    	main    	0         	int       	F         	0    	
+10   	m       	1         	int       	T         	
+11   	n       	1         	int       	T         	
+12   	i       	1         	int       	T         	
+13   	d       	1         	char      	T         	
+14   	a       	1         	int       	A         	
+---------------
+		Symbol table		
+Index	Name    	Level     	Type      	Flag      	Param_num 
+0    	a       	0         	int       	V         	
+1    	b       	0         	int       	V         	
+2    	c       	0         	int       	V         	
+3    	d       	0         	char      	V         	
+4    	a       	0         	int       	A         	
+5    	m       	0         	float     	V         	
+6    	n       	0         	float     	V         	
+7    	fibo    	0         	int       	F         	1    	
+8    	a       	1         	int       	P         	
+9    	main    	0         	int       	F         	0    	
+10   	m       	1         	int       	T         	
+11   	n       	1         	int       	T         	
+12   	i       	1         	int       	T         	
+13   	d       	1         	char      	T         	
+14   	a       	1         	int       	A         	
+---------------
+		Symbol table		
+Index	Name    	Level     	Type      	Flag      	Param_num 
+0    	a       	0         	int       	V         	
+1    	b       	0         	int       	V         	
+2    	c       	0         	int       	V         	
+3    	d       	0         	char      	V         	
+4    	a       	0         	int       	A         	
+5    	m       	0         	float     	V         	
+6    	n       	0         	float     	V         	
+7    	fibo    	0         	int       	F         	1    	
+8    	a       	1         	int       	P         	
+9    	main    	0         	int       	F         	0    	
+---------------

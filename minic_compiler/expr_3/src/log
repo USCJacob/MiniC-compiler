@@ -1,0 +1,276 @@
+(TYPE,int)
+(ID,a)
+(ASSIGNOP,=)
+(INT,10)
+(SEMI,,)
+(ID,b)
+(SEMI,,)
+(ID,c)
+(SEMI,;)
+(TYPE,int)
+(ID,g)
+(INT,10)
+(SEMI,;)
+(TYPE,char)
+(ID,d)
+(SEMI,,)
+(ID,f)
+(ASSIGNOP,=)
+(CHAR,f)
+(SEMI,;)
+(TYPE,float)
+(ID,m)
+(SEMI,,)
+(ID,n)
+(SEMI,;)
+(TYPE,int)
+(ID,fibo)
+(TYPE,int)
+(ID,a)
+(ID,a)
+(INT,1)
+(ID,a)
+(INT,2)
+(INT,1)
+(SEMI,;)
+(ID,fibo)
+(ID,a)
+(PLUS,-)
+(INT,1)
+(PLUS,+)
+(ID,fibo)
+(ID,a)
+(PLUS,-)
+(INT,2)
+(SEMI,;)
+(TYPE,int)
+(ID,main)
+(TYPE,int)
+(ID,m)
+(ASSIGNOP,=)
+(INT,0)
+(SEMI,,)
+(ID,n)
+(SEMI,,)
+(ID,i)
+(SEMI,;)
+(TYPE,char)
+(ID,d)
+(SEMI,;)
+(ID,m)
+(ASSIGNOP,=)
+(ID,read)
+(SEMI,;)
+(ID,i)
+(ASSIGNOP,=)
+(INT,1)
+(SEMI,;)
+(ID,i)
+(INT,1)
+(SEMI,;)
+(ID,d)
+(ASSIGNOP,=)
+(CHAR,a)
+(SEMI,;)
+(ID,i)
+(SEMI,;)
+(ID,i)
+(SEMI,;)
+(ID,i)
+(SEMI,;)
+(ID,i)
+(ID,m)
+(ID,n)
+(ASSIGNOP,=)
+(ID,fibo)
+(ID,i)
+(SEMI,;)
+(ID,write)
+(ID,n)
+(SEMI,;)
+(ID,i)
+(ASSIGNOP,=)
+(ID,i)
+(PLUS,+)
+(INT,1)
+(SEMI,;)
+(ID,i)
+(SEMI,;)
+(INT,1)
+(SEMI,;)
+array
+param-listc
+变量名 别 名 层 号  类  型 标记 偏移量
+  read             0     INT    F      4
+ write             0     INT    F      4
+     x             1     INT    P     12
+     a     v1      0     INT    V      0
+        temp1      0     INT    T      4
+     b     v2      0     INT    V      8
+     c     v3      0     INT    V     12
+     g     v4      0     INT    A     16
+     d     v5      0    CHAR    V     56
+     f     v6      0    CHAR    V     57
+        temp2      0    CHAR    T     58
+     m     v7      0   FLOAT    V     59
+     n     v8      0   FLOAT    V     67
+  fibo     v9      0     INT    F      0
+     a    v10      1     INT    P     12
+        temp3      1     INT    T     16
+        temp4      1     INT    T     16
+        temp5      2     INT    T     16
+变量名 别 名 层 号  类  型 标记 偏移量
+  read             0     INT    F      4
+ write             0     INT    F      4
+     x             1     INT    P     12
+     a     v1      0     INT    V      0
+        temp1      0     INT    T      4
+     b     v2      0     INT    V      8
+     c     v3      0     INT    V     12
+     g     v4      0     INT    A     16
+     d     v5      0    CHAR    V     56
+     f     v6      0    CHAR    V     57
+        temp2      0    CHAR    T     58
+     m     v7      0   FLOAT    V     59
+     n     v8      0   FLOAT    V     67
+  fibo     v9      0     INT    F      0
+     a    v10      1     INT    P     12
+        temp3      1     INT    T     16
+        temp4      1     INT    T     16
+        temp6      1     INT    T     16
+        temp7      1     INT    T     20
+        temp8      1     INT    T     28
+        temp9      1     INT    T     28
+       temp10      1     INT    T     32
+       temp11      1     INT    T     40
+       temp12      1     INT    T     40
+变量名 别 名 层 号  类  型 标记 偏移量
+  read             0     INT    F      4
+ write             0     INT    F      4
+     x             1     INT    P     12
+     a     v1      0     INT    V      0
+        temp1      0     INT    T      4
+     b     v2      0     INT    V      8
+     c     v3      0     INT    V     12
+     g     v4      0     INT    A     16
+     d     v5      0    CHAR    V     56
+     f     v6      0    CHAR    V     57
+        temp2      0    CHAR    T     58
+     m     v7      0   FLOAT    V     59
+     n     v8      0   FLOAT    V     67
+  fibo     v9      0     INT    F     44
+     a    v10      1     INT    P     12
+  main    v11      0     INT    F      0
+     m    v12      1     INT    V     12
+       temp13      1     INT    T     16
+     n    v13      1     INT    V     20
+     i    v14      1     INT    V     24
+     d    v15      1    CHAR    V     28
+       temp14      1     INT    T     33
+       temp15      1     INT    T     29
+       temp16      1     INT    T     29
+       temp17      1    CHAR    T     29
+       temp18      1     INT    T     29
+       temp19      1     INT    T     29
+       temp20      1     INT    T     29
+       temp21      2     INT    T     33
+       temp22      2     INT    T     33
+       temp23      2     INT    T     29
+       temp24      2     INT    T     33
+变量名 别 名 层 号  类  型 标记 偏移量
+  read             0     INT    F      4
+ write             0     INT    F      4
+     x             1     INT    P     12
+     a     v1      0     INT    V      0
+        temp1      0     INT    T      4
+     b     v2      0     INT    V      8
+     c     v3      0     INT    V     12
+     g     v4      0     INT    A     16
+     d     v5      0    CHAR    V     56
+     f     v6      0    CHAR    V     57
+        temp2      0    CHAR    T     58
+     m     v7      0   FLOAT    V     59
+     n     v8      0   FLOAT    V     67
+  fibo     v9      0     INT    F     44
+     a    v10      1     INT    P     12
+  main    v11      0     INT    F      0
+     m    v12      1     INT    V     12
+       temp13      1     INT    T     16
+     n    v13      1     INT    V     20
+     i    v14      1     INT    V     24
+     d    v15      1    CHAR    V     28
+       temp14      1     INT    T     33
+       temp15      1     INT    T     29
+       temp16      1     INT    T     29
+       temp17      1    CHAR    T     29
+       temp18      1     INT    T     29
+       temp19      1     INT    T     29
+       temp20      1     INT    T     29
+       temp25      1     INT    T     29
+       temp26      1     INT    T     29
+  temp1(4) := #10
+  v1(0) := temp1
+  temp2(58) := #f
+  v6(57) := temp2
+
+FUNCTION fibo :
+  PARAM v10
+  temp3(16) := #1
+  IF v10 == temp3 GOTO label3
+  GOTO label4
+LABEL label4 :
+  temp4(16) := #2
+  IF v10 == temp4 GOTO label3
+  GOTO label2
+LABEL label3 :
+  temp5(16) := #1
+  RETURN temp5
+LABEL label2 :
+  temp6(16) := #1
+  temp7 := v10 - temp6
+  ARG temp7
+  temp8 := CALL fibo
+  temp9(28) := #2
+  temp10 := v10 - temp9
+  ARG temp10
+  temp11 := CALL fibo
+  temp12 := temp8 + temp11
+  RETURN temp12
+LABEL label1 :
+
+FUNCTION main :
+  temp13(16) := #0
+  v12(12) := temp13
+  temp14 := CALL read
+  v12(12) := temp14
+  temp15(29) := #1
+  v14(24) := temp15
+  temp16(29) := #1
+  v14 := v14 + temp16
+  temp17(29) := #a
+  v15(28) := temp17
+  temp18(29) := #1
+  v14 := v14 + temp18
+  temp19(29) := #1
+  v14 := v14 + temp19
+  temp20(29) := #1
+  v14 := v14 - temp20
+LABEL label15 :
+  IF v14 <= v12 GOTO label14
+  GOTO label13
+LABEL label14 :
+  ARG v14
+  temp21 := CALL fibo
+  v13(20) := temp21
+  ARG v13
+  CALL  write
+  temp23(29) := #1
+  temp24 := v14 + temp23
+  v14(24) := temp24
+  GOTO label15
+LABEL label13 :
+  temp25(29) := #1
+  v14 := v14 + temp25
+  temp26(29) := #1
+  RETURN temp26
+LABEL label5 :

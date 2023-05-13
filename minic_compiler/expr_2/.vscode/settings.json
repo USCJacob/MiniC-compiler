@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "parser.tab.h": "c",
+        "def.h": "c",
+        "typeinfo": "c",
+        "type_traits": "c"
+    }
+}
